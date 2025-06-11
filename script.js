@@ -1,1 +1,0 @@
-Shery.mouseFollower();
