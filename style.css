@@ -60,7 +60,7 @@ video{
     height: 400px;
     border-radius: 50%;
     background-color: #96c11e2b;
-    filter: blur(30px);
+    filter: blur(60px);
     z-index: 9;
 }
 
