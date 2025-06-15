@@ -286,7 +286,7 @@ video{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to left bottom, #119f3a, #ace022);
+    background: linear-gradient(to left bottom, #12b33f, #ace022);
 }
 
 #banner .hover-highlight {
