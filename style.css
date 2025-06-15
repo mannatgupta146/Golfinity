@@ -161,3 +161,25 @@ video{
 #scroll::-webkit-scrollbar {
     display: none;
 }
+
+#about{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+#about img{
+    width: 240px;
+    height: 220px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#aboutus{
+    width: 42%;
+    text-align: center;
+}
