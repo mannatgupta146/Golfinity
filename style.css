@@ -28,9 +28,21 @@ html,body{
     z-index: 99;
 }
 
-#nav img{
-    height: 75px;
+#nav img {
+    height: auto;
+    max-height: 60px;
+    width: auto;
+    max-width: 120px;
+    border-radius: 10px;
+    object-fit: contain;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
+
+#nav img:hover {
+    transform: scale(1.05);
+}
+
 
 #nav h4{
     text-transform: uppercase;
@@ -168,7 +180,10 @@ video{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 90px;
     padding: 0 50px;
+    position: relative;
+    z-index: 10;
 }
 
 #about img{
@@ -180,6 +195,42 @@ video{
 }
 
 #aboutus{
-    width: 42%;
+    width: 65%;
     text-align: center;
+}
+
+#aboutus h3{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#aboutus p{
+    font-size: 17.7px;
+    line-height: 21px;
+}
+
+#cards{
+    background-color: royalblue;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.card{
+    height: 80%;
+    width: 22%;
+    border-radius: 10px;
+}
+
+#card1 {
+  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+}
+#card2 {
+  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4-1024x1024.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+}
+#card3 {
+  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
 }
