@@ -9,7 +9,7 @@ document.addEventListener("mousemove", function(dets) {
 })
 
 
-Shery.makeMagnet("#nav h4");
+Shery.makeMagnet("#nav h4" );
 
 gsap.to("#nav",{
     backgroundColor: "#000",
