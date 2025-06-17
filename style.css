@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -483,6 +482,12 @@ video{
 
 #f1 img {
   height: 80px;
+  transition: transform 0.3s ease;
+}
+
+#f1 img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 #f1, #f2, #f3, #f4 {
@@ -517,4 +522,14 @@ video{
   font-weight: 600;
   line-height: 20px;
   margin-bottom: 8px;
+}
+
+#footer h1:hover,
+#footer h2:hover,
+#footer h3:hover,
+#footer h4:hover {
+  color: #fff; 
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
