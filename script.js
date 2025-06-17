@@ -1,12 +1,12 @@
-var crsr = document.querySelector("#cursor");
-var blu = document.querySelector("#cursor-blur");
-
-document.addEventListener("mousemove", function(dets) {
-    crsr.style.left = dets.x + "px";
-    crsr.style.top = dets.y + "px";
-    blu.style.left = dets.x -200 + "px";
-    blu.style.top = dets.y -200 + "px";
-})
+Shery.mouseFollower({
+  skew: true,
+  skewFactor: 0.25,
+  ease: "cubic-bezier(0.25, 1, 0.5, 1)",
+  duration: 0.6,
+  scale: 1.2,
+  delay: 0.1,
+  hideNativeCursor: true
+});
 
 
 Shery.makeMagnet("#nav h4" );
