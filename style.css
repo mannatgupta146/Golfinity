@@ -312,7 +312,6 @@ video{
   text-shadow: none;
 }
 
-
 #banner h3{
     width: 50%;
     color: #000;
@@ -426,15 +425,64 @@ video{
     transition: all ease 0.6s;
 }
 
-#footer{
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
-    gap: 6.5vw;
-    position: relative;
-    z-index: 10;
-    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
-    padding: 0 100px;
+#footer {
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.5vw;
+  padding: 0 100px;
+}
+#footer > img {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  z-index: 0;
+}
+
+#footer #f{
+    object-fit: cover;
+    height: 100%;
+    width: 15%;
+}
+
+#f1 img {
+  height: 80px;
+}
+
+#f1, #f2, #f3, #f4 {
+  width: fit-content;
+  position: relative;
+  z-index: 99;
+}
+
+#f2 h3 {
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+#f3 h3 {
+  font-size: 1.6vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+#f4 h4 {
+  font-size: 1vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 8px;
 }
