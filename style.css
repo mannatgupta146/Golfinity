@@ -75,6 +75,32 @@ video{
   z-index: 10;
 }
 
+#page1 #arrow{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: -2%;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #95c11e;
+    border-radius: 50%;
+    transition: all ease 0.6s;
+}
+
+#page1 #arrow i{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#page1 #arrow:hover{
+    scale: 0.4;
+    background-color: #95c11e;
+    transition: all ease 0.6s;
+}
+
 #page1 h1{
     font-size: 140px;
     font-weight: 900;
@@ -398,4 +424,17 @@ video{
 .elem:hover img{
     scale: 1;
     transition: all ease 0.6s;
+}
+
+#footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 6.5vw;
+    position: relative;
+    z-index: 10;
+    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+    padding: 0 100px;
 }
