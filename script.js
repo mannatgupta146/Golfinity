@@ -49,18 +49,25 @@ gsap.from("#about img, #aboutus", {
     }
 })
 
-gsap.from(".card", {
-    scale: 0.8,
-    opacity: 0,
-    duration: 1,
-    scrollTrigger: {
-        trigger: ".card",
+document.querySelectorAll(".card").forEach((card) => {
+  gsap.fromTo(card, 
+    { "--scale": 0.8, opacity: 0 },
+    { 
+      "--scale": 1,
+      opacity: 1,
+      duration: 1,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: card,
         scroller: "body",
         start: "top 70%",
         end: "top 50%",
         scrub: 2
+      }
     }
-})
+  );
+});
+
 
 gsap.from("#colon1", {
     x: -90,

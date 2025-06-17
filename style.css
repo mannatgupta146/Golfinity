@@ -92,6 +92,7 @@ video{
   flex-direction: column;
   text-align: center;
   z-index: 10;
+  margin-bottom: 50px;
 }
 
 #page1 #arrow{
@@ -107,6 +108,7 @@ video{
     border: 2px solid #95c11e;
     border-radius: 50%;
     transition: all ease 0.6s;
+    margin-bottom: 20px;
 }
 
 #page1 #arrow i{
@@ -250,13 +252,26 @@ video{
     overflow: hidden;
 }
 
-.card{
-    height: 80%;
-    width: 24%;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
-    transition: all ease 0.6s;
+.card {
+  height: 80%;
+  width: 24%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.6s ease;
+  --scale: 1;
+  --rx: 0;
+  --ry: 0;
+  --rz: 0;
+  --angle: 0deg;
+  transform: scale(var(--scale)) rotate3d(var(--rx), var(--ry), var(--rz), var(--angle));
+}
+
+.card:hover {
+  --rx: -1.5;
+  --ry: 1.5;
+  --rz: -0.2;
+  --angle: 20deg;
 }
 
 #card1 {
@@ -303,10 +318,6 @@ video{
     letter-spacing: 0.1px;
     text-align: justify;
     text-justify: inter-word;
-}
-
-.card:hover {
-    transform: rotate3d(-1.5,1.5,-0.2,20deg);
 }
 
 #banner{
@@ -358,10 +369,10 @@ video{
 }
 
 #page3 p{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
-    width: 60%;
-    line-height: 50px;
+    width: 50%;
+    line-height: 45px;
     text-align: center;
     color: #fff;
 }
@@ -445,16 +456,18 @@ video{
 }
 
 #footer {
-  height: 40vh;
-  width: 100%;
-  background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 6.5vw;
-  padding: 0 100px;
+    margin-top: 70px;
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+    gap: 6.5vw;
+    padding: 0 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 #footer > img {
   position: absolute;
   left: 0;
