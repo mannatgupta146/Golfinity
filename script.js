@@ -34,3 +34,54 @@ gsap.to("#main",{
         scrub: 2
     }
 })
+
+gsap.from("#about img, #aboutus", {
+    y: 90,
+    opacity: 0,
+    duration: 1,
+    stagger: 0.5,
+    scrollTrigger: {
+        trigger: "#about",
+        scroller: "body",
+        start: "top 80%",
+        end: "top 50%",
+        scrub: 2
+    }
+})
+
+gsap.from(".card", {
+    scale: 0.8,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".card",
+        scroller: "body",
+        start: "top 70%",
+        end: "top 50%",
+        scrub: 2
+    }
+})
+
+gsap.from("#colon1", {
+    x: -90,
+    y: -90,
+    scrollTrigger: {
+        trigger: "#colon1",
+        scroller: "body",
+        start: "top 60%",
+        end: "top 50%",
+        scrub: 4
+    }
+})
+
+gsap.from("#colon2", {
+    x: 90,
+    y: 90,
+    scrollTrigger: {
+        trigger: "#colon1",
+        scroller: "body",
+        start: "top 60%",
+        end: "top 50%",
+        scrub: 4
+    }
+})
