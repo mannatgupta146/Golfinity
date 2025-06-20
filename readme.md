@@ -39,7 +39,7 @@ The goal was to **recreate a professional-grade UI** and understand how to turn 
    ```
 
 2. **Open in Browser :**
-Just open index.html in any modern web browser.
+Just open ```index.html``` in any modern web browser.
 
 
 ## 🛠️ Tech Stack
