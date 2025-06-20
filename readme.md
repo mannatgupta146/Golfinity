@@ -54,10 +54,10 @@ Just open ```index.html``` in any modern web browser.
 - **CSS3**  
 - **JavaScript (ES6)**  
 - [**GSAP** (GreenSock)](https://greensock.com/gsap/)  
-- [**SheryJS**](https://github.com/SheryJS/Shery)  
+- [**SheryJS**](https://github.com/sheryianscodingschool/sheryjs/)  
 - [**Locomotive Scroll**](https://locomotivemtl.github.io/locomotive-scroll/)  
 - [**Remix Icons**](https://remixicon.com/)  
-- [**Google Fonts** – Montserrat, Poppins](https://fonts.google.com/)
+- [**Google Fonts** (Montserrat, Poppins)](https://fonts.google.com/)
 
 ## 📚 Inspiration & Credits
 
