@@ -3,14 +3,6 @@
 **Golfinity** is a stylish and interactive golf-themed landing page, inspired by [Sidcup Family Golf](https://sidcupfamilygolf.com/). Designed with modern web technologies, it brings together custom cursor effects, fluid animations, and a sleek layout to create an immersive user experience.
 
 
-## ✨ What I Learned
-
-- How to integrate **SheryJS** for animated cursors and magnetic hover effects
-- Using **GSAP** with **ScrollTrigger** for scroll-based transitions and animations
-- Responsive layout techniques for complex sections
-- Styling with custom fonts, gradients, and layered visuals
-- Video backgrounds, animated cards, and modern UI design principles
-
 ## 🎯 Why This Project?
 
 I built **Golfinity** as a front-end development learning project to practice:
@@ -61,6 +53,13 @@ Just open index.html in any modern web browser.
 - Google Fonts (`Montserrat`, `Poppins`)
 - Remix Icons
 
+## ✨ What I Learned
+
+- How to integrate **SheryJS** for animated cursors and magnetic hover effects
+- Using **GSAP** with **ScrollTrigger** for scroll-based transitions and animations
+- Responsive layout techniques for complex sections
+- Styling with custom fonts, gradients, and layered visuals
+- Video backgrounds, animated cards, and modern UI design principles
 
 ## 📚 Inspiration & Credits
 
