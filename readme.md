@@ -27,6 +27,13 @@ The goal was to **recreate a professional-grade UI** and understand how to turn 
 | 📱 Responsive Design (Desktop)   | Looks polished on different screen sizes                                   |
 | 💬 Testimonial & Call to Action | Builds credibility and prompts interaction   
 
+## ✨ What I Learned
+
+- How to integrate **SheryJS** for animated cursors and magnetic hover effects
+- Using **GSAP** with **ScrollTrigger** for scroll-based transitions and animations
+- Responsive layout techniques for complex sections
+- Styling with custom fonts, gradients, and layered visuals
+- Video backgrounds, animated cards, and modern UI design principles
 
 ## 📦 Installation & Usage
 
@@ -41,25 +48,16 @@ The goal was to **recreate a professional-grade UI** and understand how to turn 
 2. **Open in Browser :**
 Just open ```index.html``` in any modern web browser.
 
-
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- GSAP + ScrollTrigger
-- SheryJS
-- Locomotive Scroll
-- Google Fonts (`Montserrat`, `Poppins`)
-- Remix Icons
-
-## ✨ What I Learned
-
-- How to integrate **SheryJS** for animated cursors and magnetic hover effects
-- Using **GSAP** with **ScrollTrigger** for scroll-based transitions and animations
-- Responsive layout techniques for complex sections
-- Styling with custom fonts, gradients, and layered visuals
-- Video backgrounds, animated cards, and modern UI design principles
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6)**  
+- [**GSAP** (GreenSock)](https://greensock.com/gsap/)  
+- [**SheryJS**](https://github.com/SheryJS/Shery)  
+- [**Locomotive Scroll**](https://locomotivemtl.github.io/locomotive-scroll/)  
+- [**Remix Icons**](https://remixicon.com/)  
+- [**Google Fonts** – Montserrat, Poppins](https://fonts.google.com/)
 
 ## 📚 Inspiration & Credits
 
