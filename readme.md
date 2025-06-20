@@ -11,16 +11,30 @@
 - Styling with custom fonts, gradients, and layered visuals
 - Video backgrounds, animated cards, and modern UI design principles
 
+## 🎯 Why This Project?
+
+I built **Golfinity** as a front-end development learning project to practice:
+
+- Real-world layout structuring
+- Modern design principles (glassmorphism, layered layouts, gradients)
+- Scroll-triggered animations
+- Cursor interactivity
+- Creating responsive, immersive landing pages
+
+The goal was to **recreate a professional-grade UI** and understand how to turn design inspiration into a working web product.
 
 ## 🚀 Features
 
-- 🎯 Animated custom cursor & magnetic nav elements (SheryJS)
-- 🌀 Scroll-triggered animations using GSAP
-- 🎥 Hero section with background video
-- 🧲 Interactive cards with hover scale and rotation
-- 🦖 Dinosaur-themed adventure golf content
-- 💬 Testimonial and call-to-action sections
-- 📱 Desktop-responsive layout
+| Feature                          | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| 🎥 Fullscreen Hero Video         | Engages users immediately with motion                                      |
+| ✨ Scroll Animations             | Smooth fade-ins, scaling, and position transitions                         |
+| 🧲 Magnetic Hover Effects        | Interactive hover on nav elements using SheryJS                            |
+| 📜 Seamless Scroll Experience    | Locomotive Scroll enhances smoothness                                      |
+| 🦖 Themed Content Cards          | Dinosaur-themed adventure golf cards with overlay transitions              |
+| 📱 Responsive Design (Desktop)   | Looks polished on different screen sizes                                   |
+| 💬 Testimonial & Call to Action | Builds credibility and prompts interaction   
+
 
 ## 📦 Installation & Usage
 
@@ -53,6 +67,11 @@ Just open index.html in any modern web browser.
 - 🔗 Inspired by: [Sidcup Family Golf](https://sidcupfamilygolf.com/)
 - 🎥 Tutorial by: [Shreyians Coding on YouTube](https://youtu.be/xG1_vbVPUUs?si=uip9rGPeZU5iSQb8)
 
+## ⚠️ Disclaimer
+
+This project is created **for educational and portfolio purposes only**.  
+It is **not affiliated with or endorsed by** Sidcup Family Golf.  
+All brand references and names used are purely for learning inspiration.
 
 ---
 
