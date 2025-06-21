@@ -87,7 +87,7 @@ gsap.from("#colon2", {
     scrollTrigger: {
         trigger: "#colon2",
         scroller: "body",
-        start: "top 60%",
+        start: "top 80%",
         end: "top 50%",
         scrub: 4
     }
@@ -98,7 +98,7 @@ gsap.from("#page4 h1",{
     scrollTrigger: {
         trigger: "#page4 h1",
         scroller: "body",
-        start: "top 75%",
+        start: "top 55%",
         end: "top 75%",
         scrub: 4
     }
