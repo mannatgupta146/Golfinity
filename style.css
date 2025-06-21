@@ -298,7 +298,7 @@ video{
 
 .overlay h4{
     color: #000;   
-    font-size: 30px;
+    font-size: 2vw;
     text-transform: uppercase;
     white-space: nowrap;
     margin-bottom: 20px;
@@ -307,7 +307,7 @@ video{
 
 .overlay p {
     color: #222; 
-    font-size: 16px;
+    font-size: 1.05vw;
     font-weight: 500;
     line-height: 1.6;
     letter-spacing: 0.5px;
@@ -541,6 +541,8 @@ video{
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
+
 @media (max-width: 768px) {
   #nav {
     padding: 0 20px;
@@ -573,20 +575,41 @@ video{
     gap: 30px;
   }
 
+  #aboutus {
+    width: 80%;
+  }
+
   #aboutus p {
-    font-size: clamp(14px, 2.7vw, 18px);
+    font-size: clamp(14px, 3vw, 18px);
   }
 
   #cards {
     flex-direction: column;
     height: auto;
-    align-items: center;
-    gap: 20px;
+    gap: 5vh;
+    padding: 20px 0;
   }
 
   .card {
     width: 80%;
     height: 300px;
+    transform: none !important; 
+  }
+
+  .overlay {
+    padding: 20px;
+  }
+
+  .overlay h4 {
+    font-size: clamp(16px, 4.5vw, 20px);
+    white-space: normal;
+    text-align: center;
+  }
+
+  .overlay p {
+    font-size: clamp(14px, 3.2vw, 16px);
+    line-height: 1.5;
+    text-align: justify;
   }
 
   #banner {
@@ -598,18 +621,24 @@ video{
     margin-bottom: -15vw;
   }
 
+  #page3 p{
+    font-size: 3vw;
+    width: 80%;
+    line-height: 1.5;
+}
+
   #page3 img {
     width: 60px;
     height: 60px;
   }
 
   #page3 #colon1 {
-    left: 20%;
+    left: 10%;
     top: 25%;
   }
 
   #page3 #colon2 {
-    right: 20%;
+    right: 10%;
     bottom: 35%;
   }
 
@@ -623,8 +652,10 @@ video{
   }
 
   #page4 .elem {
-    height: 80%;
-    width: 80%;
+    height: 60%;
+    width: 25%;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 
   .elem h2 {
