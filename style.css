@@ -533,3 +533,34 @@ video{
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+  #nav {
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  #page1 h1 {
+    font-size: 50px;
+  }
+  #page1 h2 {
+    font-size: 20px;
+  }
+  #cards {
+    flex-direction: column;
+    height: auto;
+  }
+  .card {
+    width: 80%;
+    height: 300px;
+  }
+  #about {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+  #aboutus {
+    width: 90%;
+  }
+}
